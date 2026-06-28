@@ -1254,7 +1254,6 @@ nav {
   margin: 0 auto;
   width: 70%;
   max-width: 900px;
-  max-height: 617px;
 }
 .accordion-icon {
   width: 40px;
@@ -1303,7 +1302,18 @@ nav {
   padding: 8px 24px;
   color: oklch(0.446 0.03 256.802);
   line-height: 26px;
-  margin-bottom: 24px;
+  margin-bottom: 0;
+  animation: slideDown 0.3s ease-out;
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .strong-accord {
   display: flex;

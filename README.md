@@ -1,1 +1,1 @@
-this website i make it with using bootstrap  with html and css  and it decribe : Digital Solutions That Drive Growth ,, it take me few days to finish it 
+thats project i make in 2 and half days which many details for developer

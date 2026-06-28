@@ -1,0 +1,379 @@
+@media (max-width: 1199px) {
+  .container {
+    margin: auto !important;
+    width: 100%;
+    max-width: 1100px !important;
+  }
+  .navbar-nav {
+    gap: 21px;
+  }
+
+  .navbar-nav .dropdown-menu {
+    height: 350px;
+    overflow: auto;
+  }
+  .div-small-nav {
+    display: flex;
+  }
+  .mega-menu-cta {
+    padding: 10px;
+  }
+  .div-big-nav {
+    display: none;
+  }
+  .navbar-nav .active::after {
+    display: none;
+  }
+  .buttons-nav {
+    margin-top: 10px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .buttons-nav a {
+    width: 100%;
+  }
+  .btn-si {
+    border-radius: 10px;
+    border: 1px solid grey;
+  }
+  .hero-title {
+    font-size: 53px;
+    line-height: 66px;
+  }
+  .hero-badge {
+    font-size: 12px;
+    line-height: 18px;
+    width: 60%;
+  }
+  .hero-section {
+    height: 120vh;
+  }
+
+  .technology-card {
+    width: 100%;
+  }
+
+  .section-title.f {
+    font-size: 63px !important;
+  }
+  .form-label {
+    font-size: 12px;
+  }
+  .contact-form-side {
+    padding: 42px !important;
+  }
+
+  .budget-card p {
+    font-size: 14px !important;
+    margin-bottom: 0;
+  }
+  .budget-card span {
+    font-size: 12px;
+  }
+  .footer-section {
+    padding: 42px;
+  }
+  .footer-description {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px !important;
+  }
+  .hero-section {
+    height: 200vh;
+    margin-top: 0 !important;
+  }
+  .hero-title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .hero-badge {
+    width: 35%;
+  }
+  .verified-badge {
+    font-size: 18px;
+  }
+  .con-accord {
+    width: 85%;
+  }
+
+  .faq-section .section-title {
+    font-size: 36px;
+  }
+  .service-card h4 {
+    font-size: 18px !important;
+  }
+
+  .service-card p {
+    font-size: 14px !important;
+  }
+
+  .service-features-text {
+    font-size: 12px !important;
+  }
+  .learn-more {
+    font-size: 14px !important;
+  }
+  .section-title {
+    font-size: 26px !important;
+  }
+  .tech-tabs .nav-link {
+    font-size: 16px !important;
+  }
+  .tech-category-title {
+    font-size: 21px !important;
+  }
+
+  .tech-category-subtitle {
+    font-size: 16px !important;
+  }
+
+  .section-title.f {
+    font-size: 42px !important;
+    max-width: 300px;
+  }
+  .testimonial-card {
+    max-height: 445px;
+  }
+  .contact-form-side {
+    width: 100% !important;
+  }
+  .contact-wrapper {
+    width: 100%;
+    flex-direction: column !important;
+  }
+  /* Adjust badge position for mobile */
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 500px !important;
+  }
+  .testimonial-card {
+    padding: 32px 24px;
+    max-height: 700px !important;
+  }
+
+  .te-ff {
+    width: 100%;
+
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+  }
+  .flex-img-te {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .testimonial-metric {
+    display: none;
+  }
+  .faq-section {
+    padding: 60px 0;
+  }
+
+  .con-accord {
+    width: 95%;
+  }
+
+  .faq-section .section-title {
+    font-size: 28px;
+  }
+
+  .faq-section .section-subtitle-c {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .accordion-button {
+    font-size: 14px !important;
+    padding: 16px 20px !important;
+  }
+
+  .accordion-body {
+    padding: 0 20px 20px 20px !important;
+    font-size: 14px;
+  }
+  .budget-options {
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .budget-card {
+    padding: 14px !important;
+  }
+  .info-item h6 {
+    font-size: 14px !important;
+  }
+  .info-item p {
+    font-size: 12px !important;
+  }
+  .contact-detail span {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Hero Section */
+  .hero-section,
+  .services-section,
+  .technology-section,
+  .testimonials-section,
+  .faq-section {
+    height: auto !important;
+    padding: 60px 0 40px !important;
+  }
+
+  .hero-title {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+
+  .hero-badge {
+    width: auto !important;
+    font-size: 11px !important;
+  }
+
+  .hero-buttons {
+    flex-direction: column !important;
+  }
+
+  .btn-start-project,
+  .btn-watch-demo {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .hero-stats {
+    justify-content: space-between !important;
+    gap: 10px !important;
+  }
+
+  .stat-number {
+    font-size: 24px !important;
+  }
+
+  .stat-label {
+    font-size: 11px !important;
+  }
+
+  /* Hero Image */
+  .hero-image-wrapper {
+    max-width: 100% !important;
+    margin-top: 30px !important;
+  }
+
+  /* Services Section */
+  .section-title {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .section-subtitle-a {
+    font-size: 14px !important;
+    line-height: 22px !important;
+  }
+
+  .service-card {
+    padding: 24px !important;
+  }
+
+  .service-card h4 {
+    font-size: 18px !important;
+  }
+
+  .service-card p {
+    font-size: 14px !important;
+  }
+
+  .service-features-text {
+    font-size: 12px !important;
+  }
+
+  .learn-more {
+    font-size: 14px !important;
+  }
+
+  /* Technology Section */
+  .tech-tabs {
+    flex-wrap: wrap !important;
+    gap: 5px !important;
+  }
+
+  .tech-tabs .nav-link {
+    font-size: 14px !important;
+    padding: 10px 15px !important;
+  }
+
+  .tech-category-title {
+    font-size: 20px !important;
+  }
+
+  .tech-category-subtitle {
+    font-size: 14px !important;
+  }
+
+  .tech-card {
+    padding: 20px !important;
+  }
+
+  /* Testimonials */
+  .testimonial-card {
+    padding: 20px !important;
+  }
+
+  /* FAQ */
+  .faq-section .section-title {
+    font-size: 24px;
+  }
+
+  .faq-section .section-subtitle-c {
+    font-size: 14px;
+  }
+
+  .con-accord {
+    width: 100%;
+  }
+
+  /* Contact Section - Stack form and info card */
+  .contact-wrapper {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .contact-form-side {
+    padding: 24px !important;
+  }
+
+  .contact-info-side {
+    padding: 24px !important;
+    border-radius: 0 0 20px 20px !important;
+  }
+
+  .budget-options {
+    flex-direction: column !important;
+  }
+
+  /* Footer */
+  .footer-section {
+    padding: 21px;
+  }
+  .footer-description {
+    max-width: 100% !important;
+  }
+
+  .social-links {
+    justify-content: flex-start !important;
+    margin-bottom: 20px !important;
+  }
+
+  .footer-section .text-center {
+    text-align: center !important;
+  }
+}
